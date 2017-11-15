@@ -48,6 +48,9 @@
     <ClCompile Include="MoveTrigger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SDLInit.h">

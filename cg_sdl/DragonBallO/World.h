@@ -2,8 +2,8 @@
 #include "MyMath.h"
 #include "Camera.h"
 
-const int NUM_GRID_ROWS = 4;
-const int NUM_GRID_COLUMNS = 5;
+const int NUM_GRID_ROWS = 7;
+const int NUM_GRID_COLUMNS = 6;
 const int NUM_ZONES = NUM_GRID_ROWS * NUM_GRID_COLUMNS;
 
 using namespace MyMath;

@@ -1,10 +1,10 @@
 #include "Player.h"
 #include "Camera.h"
 
-#define ANIM_RIGHT_COUNT 2
-#define ANIM_LEFT_COUNT 2
-#define ANIM_UP_COUNT 2
-#define ANIM_DOWN_COUNT 2
+#define ANIM_RIGHT_COUNT 7
+#define ANIM_LEFT_COUNT 7
+#define ANIM_UP_COUNT 7
+#define ANIM_DOWN_COUNT 7
 
 #define ANIM_ATTACK_COUNT 3
 
@@ -52,10 +52,10 @@ namespace {
 	float animAttackSpeed = 12;
 
 	//Animation indices...
-	int animRightIndices[ANIM_RIGHT_COUNT] = { 4, 18};
-	int animLeftIndices[ANIM_LEFT_COUNT] = { 2, 16 };
-	int animUpIndices[ANIM_UP_COUNT] = { 3, 17 };
-	int animDownIndices[ANIM_DOWN_COUNT] = { 1, 15 };
+	int animRightIndices[ANIM_RIGHT_COUNT] =	{ 8, 9, 10, 11, 12, 13, 14 };
+	int animLeftIndices[ANIM_LEFT_COUNT] =		{ 22, 23, 24, 25, 26, 27, 28 };
+	int animUpIndices[ANIM_UP_COUNT] =			{ 1, 2, 3, 4, 5, 6, 7 };
+	int animDownIndices[ANIM_DOWN_COUNT] =		{ 15, 16, 17, 18, 19, 20, 21 };
 
 	int animAttackLeftIndices[4][ANIM_ATTACK_COUNT] = {
 		{ 35, 49, 62 },	//right attack...
