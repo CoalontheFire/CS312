@@ -140,3 +140,4 @@ void Entity::CheckCollision() {
 void Entity::OnCollision(Entity *other) {
 	mHasCollided = true;
 }
+

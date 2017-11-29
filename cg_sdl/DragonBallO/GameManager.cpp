@@ -32,6 +32,7 @@ namespace {
 	Sprite kakariko;
 	Sprite leftForest;
 	MoveTrigger moveTrigger;
+	Entity colliderPrefab;
 	Entity colliderCliff01;
 	Entity colliderHedge01;
 	Entity colliderHedge02;
@@ -41,6 +42,8 @@ namespace {
 	Entity colliderWoods02;
 	Entity colliderWoods03;
 }
+
+
 
 void InitEntities() {
 	//Setting path names...
