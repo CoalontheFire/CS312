@@ -10,8 +10,9 @@
 #include "Camera.h"
 #include "MoveTrigger.h"
 
-#define CAMERA_MODE Camera::Mode::PAN
-#define SHOW_COLLIDERS true
+#define CAMERA_MODE Camera::Mode::FOLLOW
+#define SHOW_COLLIDERS false
+
 
 //Also camera dimension...
 const int SCREEN_WIDTH = 640;
