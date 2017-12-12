@@ -6,7 +6,7 @@
 #define ANIM_UP_COUNT 7
 #define ANIM_DOWN_COUNT 7
 
-#define ANIM_ATTACK_COUNT 3
+#define ANIM_ATTACK_COUNT 7
 
 //1.4142f = sqrt(sqr(1) + sqr(1))
 #define SQRHYPE 1.4142f	
@@ -37,7 +37,7 @@ namespace {
 
 namespace {
 	//Animation times...
-	float attackTime = .25f;
+	float attackTime = .35f;
 
 	//Animation timers...
 	float moveRightTimer = 0.f;
@@ -52,16 +52,16 @@ namespace {
 	float animAttackSpeed = 12;
 
 	//Animation indices...
-	int animRightIndices[ANIM_RIGHT_COUNT] =	{ 8, 9, 10, 11, 12, 13, 14 };
-	int animLeftIndices[ANIM_LEFT_COUNT] =		{ 22, 23, 24, 25, 26, 27, 28 };
 	int animUpIndices[ANIM_UP_COUNT] =			{ 1, 2, 3, 4, 5, 6, 7 };
+	int animRightIndices[ANIM_RIGHT_COUNT] =	{ 8, 9, 10, 11, 12, 13, 14 };
 	int animDownIndices[ANIM_DOWN_COUNT] =		{ 15, 16, 17, 18, 19, 20, 21 };
+	int animLeftIndices[ANIM_LEFT_COUNT] =		{ 22, 23, 24, 25, 26, 27, 28 };
 
 	int animAttackLeftIndices[4][ANIM_ATTACK_COUNT] = {
-		{ 35, 49, 62 },	//right attack...
-		{ 61, 48, 34 },	//left attack...
-		{ 61, 48, 34 },	//down attack...
-		{ 61, 48, 34 }	//up attack...
+		{ 39, 42, 45 },	//right attack...
+		{ 30, 33, 36 },	//left attack...
+		{ 57, 60, 63 },	//down attack...
+		{ 48, 51, 54 }	//up attack...
 	};
 }
 

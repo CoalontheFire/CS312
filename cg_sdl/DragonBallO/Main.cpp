@@ -8,7 +8,7 @@ extern bool gQuitGame;
 int main( int argc, char* args[] )
 {
 	GameManager gameManager;
-	PlaySound("sounds/zelda_13.wav", GetModuleHandle(NULL), SND_FILENAME | SND_ASYNC | SND_LOOP);
+	//PlaySound("sounds/zelda_13.wav", GetModuleHandle(NULL), SND_FILENAME | SND_ASYNC | SND_LOOP);
 	if(gameManager.Init()){
 		while (!gQuitGame) {
 			gameManager.Update();
